@@ -12,9 +12,9 @@ namespace DataStructures
         {
             Console.WriteLine("Welcome To DataStractures");
             CustomLinkedList linkedList = new CustomLinkedList();
-            linkedList.AddFirst(70);
-            linkedList.AddFirst(30);
-            linkedList.AddFirst(56);
+            linkedList.Append(56);
+            linkedList.Append(30);
+            linkedList.Append(70);
             linkedList.Display();
             Console.ReadLine();
         }

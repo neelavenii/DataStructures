@@ -44,6 +44,10 @@ namespace DataStructures
             this.head = newNode;
             Console.WriteLine("{0} Node inserted into linkedlist", newNode.data);
         }
+        public void Append(int newData)
+        {
+            AddLast(newData);
+        }
 
         public void Display()
         {
