@@ -33,6 +33,18 @@ namespace DataStructures
             }
             return temp;
         }
+        /// <summary>
+        /// Uc2
+        /// </summary>
+        /// <param name="new_data"></param>
+        public void AddFirst(int newData)
+        {
+            Node newNode = new Node(newData);
+            newNode.next = this.head;
+            this.head = newNode;
+            Console.WriteLine("{0} Node inserted into linkedlist", newNode.data);
+        }
+
         public void Display()
         {
             Node temp = this.head;
